@@ -30,10 +30,75 @@ header {
     flex-wrap: wrap;
 }
 
+/* Styling for the skills list in dark mode */
+.skills-list.dark-mode {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3f3e3e;
+}
+
 .skills-list li {
     margin: 10px;
     color: black;
     border: 1px solid #0077B5;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+/* Styling for list items in dark mode */
+.skills-list.dark-mode li {
+    margin: 10px;
+    color: white;
+    border: 1px solid #0077B5;
+    background: #3f3e3e;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Styling for the dark mode button container */
+.dark-mode-button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 90%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* Style for the dark mode button */
+.dark-mode-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style for the dark mode button in dark mode */
+.dark-mode-button.dark-mode {
+    background-color: #3f3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Add styles for dark mode */
+.dark-mode {
+    background-color: #333;
+    color: #333;
+}
+
+/* Styles for elements inside the main container in dark mode */
+.main-container.dark-mode {
+    background-color: #3f3e3e;
+    color: #fff;
+}
+
+/* Style for links in dark mode */
+.main-container.dark-mode a {
+    color: #bb86fc; /* Change link color in dark mode */
 }

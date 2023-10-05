@@ -8,10 +8,28 @@ body {
 
 /* Styling for the header section */
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 5px 0;
+}
+
+/* Styling for the images */
+/* add rounded borders and shadow */
+img {
+    border-radius: 5px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+/* Styling for sections */
+section {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+/* Styling to center text */
+.text-center {
+    text-align: center;
 }
 
 /* Styling for the main content container */
@@ -28,6 +46,7 @@ header {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* Styling for the skills list in dark mode */
@@ -36,11 +55,11 @@ header {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #3f3e3e;
 }
 
 .skills-list li {
-    margin: 10px;
     color: black;
     border: 1px solid #0077B5;
     padding: 5px 10px;
@@ -49,7 +68,6 @@ header {
 
 /* Styling for list items in dark mode */
 .skills-list.dark-mode li {
-    margin: 10px;
     color: white;
     border: 1px solid #0077B5;
     background: #3f3e3e;
